@@ -1,0 +1,22 @@
+{
+  "name": "todo-server",
+  "version": "0.1.0",
+  "description": "Server to handle todo requests",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "pm2 start server.js --watch --name 'todo-server'",
+    "devstop": "pm2 stop todo-server --watch"
+  },
+  "author": "Raynal R. Gobel",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/hapi": "^18.4.0",
+    "hapi": "^18.1.0",
+    "hapi-cors": "^1.0.3",
+    "qs": "^6.9.0"
+  },
+  "devDependencies": {
+    "pm2": "^3.5.1"
+  }
+}
