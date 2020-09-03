@@ -11,7 +11,7 @@
   "author": "Raynal R. Gobel",
   "license": "ISC",
   "dependencies": {
-    "@hapi/hapi": "^18.4.0",
+    "@hapi/hapi": "^19.1.1",
     "hapi": "^18.1.0",
     "hapi-cors": "^1.0.3",
     "qs": "^6.9.0"
